@@ -3,7 +3,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Home Page</h1>
+      <h1>Evironment Created</h1>
+      <h2>Plan the UX|UI</h2>
     </div>
   );
 }
