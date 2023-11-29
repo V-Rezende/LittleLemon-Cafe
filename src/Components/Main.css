@@ -1,0 +1,18 @@
+
+.main{
+    display: grid;
+    grid-template-rows: 400px 300px;
+    border: 1px solid red;
+}
+
+.specials{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    border: 1px solid red;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 20% 15% 15% 15% 15% 20%;
+    border: 1px solid red;
+}

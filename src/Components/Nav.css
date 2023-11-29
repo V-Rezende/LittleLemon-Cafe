@@ -1,0 +1,44 @@
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30%;
+    background-color: rgb(51, 76, 51);
+}
+
+
+
+.nav-list ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    width: 100%;
+    height: auto;
+    
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul li{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav ul li:hover{
+    font-size: large;
+    color: limegreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav img{
+    justify-self: flex-end;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+
