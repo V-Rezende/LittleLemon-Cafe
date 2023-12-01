@@ -1,4 +1,6 @@
 import style from  "./Nav.css";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav () {
 
@@ -8,12 +10,12 @@ return (
             <img src="/Images/Asset 9@4x.png" alt="Logo"/>
                 <div className="nav-list">
                     <ul>
-                        <li><a href="" id="home" ></a>Home</li>
-                        <li><a href="" id="about" ></a>About</li>
-                        <li><a href="" id="menu" ></a>Menu</li>
-                        <li><a href="" id="reservations" ></a>Reservations</li>
-                        <li><a href="" id="orderonline" ></a>Order Online</li>
-                        <li><a href="" id="login" ></a>Login</li>
+                        <li><Link to="/" className="nav=item">Home</Link></li>
+                        <li><Link to="/about" className="nav-item">About</Link></li>
+                        <li><Link to="/menu" className="nav-item">Menu</Link></li>
+                        <li><Link to="/reservation" className="nat-item">Reservations</Link></li>
+                        <li><Link to="/order-online" className="nat-item">Order Online</Link></li>
+                        <li><Link to="/login" className="nat-item">Login</Link></li>
                     </ul>
                 </div>
         </nav>
