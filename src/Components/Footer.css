@@ -17,16 +17,25 @@ footer img{
     display: flex;
     flex-direction: column;
     text-align: start;
+    justify-content: space-around;
     margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-item{
+    text-decoration: none;
+    font-weight: 400;
+    color: #334c33;
+}
+
+.footer-item:hover{
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 .navigation li{
     line-height: 1.5em;
-}
-
-.navigation li:hover{
-    font-weight: bolder;
-    cursor: pointer;
 }
 
 .contact{
@@ -38,7 +47,7 @@ footer img{
 }
 
 .contact li{
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 .contact li:hover{
@@ -55,7 +64,7 @@ footer img{
 }
 
 .social-media li{
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 .social-media li:hover{

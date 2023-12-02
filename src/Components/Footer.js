@@ -1,4 +1,6 @@
 import style from "./Footer.css";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer () {
 
@@ -8,19 +10,20 @@ function Footer () {
             <div></div>
                 <img src="/Images/restaurant.jpg" alt="Footer Image"/>
                     <ul className="navigation">
-                        <li><h4>Doormat Navigation</h4></li>
-                        <li><a href="#home" id="home" ></a>Home</li>
-                        <li><a href="#about" id="about" ></a>About</li>
-                        <li><a href="#menu" id="menu" ></a>Menu</li>
-                        <li><a href="#reservtions" id="rezervations" ></a>Reservations</li>
-                        <li><a href="#orderonline" id="orderonline" ></a>Order Online</li>
-                        <li><a href="#login" id="login" ></a>Login</li>
+                        <li><Link to="/" className="footer-item">Home</Link></li>
+                        <li><Link to="/about" className="footer-item">About</Link></li>
+                        <li><Link to="/menu" className="footer-item">Menu</Link></li>
+                        <li><Link to="/reservation" className="footer-item">Reservations</Link></li>
+                        <li><Link to="/order-online" className="footer-item">Order Online</Link></li>
+                        <li><Link to="/login" className="footer-item">Login</Link></li>
                     </ul>
                     <ul className="contact">
                         <li><h4>Contact</h4></li>
-                        <li><a href=""></a>Adress</li>
-                        <li><a href=""></a>Phone Number</li>
-                        <li><a href=""></a>Email</li>
+                        <li>Address: 42 The Esplanade, Paradise Point QLD 4216</li>
+                        <br></br>
+                        <li>Phone: +61 0417 525 259</li>
+                        <br></br>
+                        <li>Email: contact.lillemmon@gmail.com</li>
                     </ul>
                     <ul className="social-media">
                         <li><h4>Social Media</h4></li>

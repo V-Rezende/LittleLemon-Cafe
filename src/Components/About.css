@@ -1,0 +1,44 @@
+
+.about{
+    background-color: #f8f0cd;
+}
+
+.about-title{
+    display: grid;
+    grid-template-columns: 20% 25% 35% 20%;
+    grid-template-rows: 180px;
+    color: #526652;
+}
+
+.about-title h1{
+    grid-column: 3;
+    display: flex;
+    margin: 0;
+    padding-top:62px;
+    align-items:flex-start;
+}
+
+.about-title img{
+    grid-column: 2;
+    width: 300px;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.about-content p{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+    text-align: left;
+    align-items: flex-start;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    color: #526652;
+
+}

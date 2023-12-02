@@ -1,7 +1,8 @@
+import styles from "./Reservation.css";
 
 function Reservations () {
     return (
-        <div>
+        <div className="reservation">
             <div className="form">
                 <h1>Reserve a Table for your spacial ocasion:</h1>
 
@@ -31,7 +32,6 @@ function Reservations () {
                     <button type="submit">Book Table</button>
             </div>
         </div>
-        
     )
 }
 
