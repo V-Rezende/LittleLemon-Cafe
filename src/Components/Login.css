@@ -9,9 +9,10 @@
 .login-box{
     background-color: whitesmoke;
     color: #253325;
-    height: 450px;
+    height: 410px;
     width: 350px;
-    margin: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px 20px;
     text-align: center;
     border-radius: 12px;
@@ -46,7 +47,7 @@ p span:hover{
     color: black;
     border: 0;
     border-radius: 2px;
-    padding: 8px 0;
+    padding: 8px;
     font-size: 15px;
     box-shadow: 1px 1px 3px 0;
 }
@@ -60,22 +61,11 @@ p span:hover{
     box-shadow: 1px 2px 4px 0;
 }
 
-button{
-    width: 40%;
-    display: inline;
-    background-color: whitesmoke;
-    border: 1px solid;
-    border-radius: 3px;
-    margin: 2px;
-    padding: 5px 5px;
-    font-weight: bold;
-}
-
-button:hover{
-    color: #253325;
-    transition: 0.3s ease;
-    cursor: pointer;
-    box-shadow: 1px 2px 4px 0; 
+.brands{
+    border: 1px solid darkgreen;
+    border-radius: 2px;
+    padding: 4px;
+    margin-right: 5px;
 }
 
 

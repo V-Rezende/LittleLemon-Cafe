@@ -1,80 +1,57 @@
 
 .main{
     display: grid;
-    grid-template-rows: 600px 300px;
-    border: 1px solid red;
+    grid-template-rows: auto auto;
 }
 
 .specials{
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: 10% 80% 10%;
     background-color: #eadb94;
 }
 
-.testimonials{
-    display: grid;
-    grid-template-columns: 20% 15% 15% 15% 15% 20%;
-    border: 1px solid red;
-}
-
-.container-2{
+.specials-head{
     display: flex;
-    flex-direction: column;
-    grid-column: 2;
-    align-items: flex-start;
-    width: 80%;
     justify-content: space-between;
+    grid-column: 2;
+    margin-top: 40px;
     margin-bottom: 40px;
-}
-
-.container-2 h1{
-    padding-top: 20px;
     color: #526652;
 }
 
-.container-3{
-    display: flex;
-    flex-direction: column;
-    grid-column: 3;
-    align-items: center ;
-    width: 80%;
-    margin-top: 156px;
-}
-
-.container-4{
-    display: flex;
-    flex-direction: column;
-    grid-column: 4;
-    align-items: flex-end;
-    width: 80%;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
-.container-4 button{
-    background-color: black;
-    color: whitesmoke;
+.online-menu{
+    text-decoration: none;
+    background-color: #1d321d;
+    border: 1px solid rgb(201, 248, 195);
+    width: 15%;
+    color: rgb(201, 248, 195);
     font-weight: bold;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 20px;
     box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
 }
 
-.container-4 button:hover{
+.online-menu:hover{
     cursor: pointer;
     box-shadow: 0px 3px 6px rgb(0, 0, 0);
+    background-color: #1d321d;
+    color: limegreen;
+    transition: 0.3s ease;
 }
 
-
+.container{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2;
+}
 
 .card{
+    width: 30%;
     background-color: #edefee;
-    height: 400px;
     border: 1px solid black;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
-    overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .card img{
@@ -85,52 +62,95 @@
     border-top-left-radius: 8px;
 }
 
+.card-title h3{
+    color: darkgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-.card-title{
+.card-main p{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-content button{
+    width: 40%;
+    font-size: medium;
+    background-color: #f4ce14;
+    border: 2px solid rgb(51, 76, 51);
+    color: rgb(51, 76, 51);
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.card-content button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.testimonials-title{
     display: flex;
-    margin: 0;
-    padding: 10px 20px 0 20px;
-    font-size: small;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #e7e1c3;
+    color: black;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    height: 350px;
+    background-color: #e7e1c3;
+}
+
+.all-boxes{
+    grid-column: 2;
+    display: flex;
     justify-content: space-between;
 }
 
-.item {
-    margin: 0;
-    align-items: flex-start;
-    color:rgb(51, 76, 51);
-}
-
-.price {
-    margin: 0;
-    align-items: flex-end;
-    color: rgb(86, 110, 86);
-}
-
-.card-main{
-    align-items: flex-start;
-    text-align: justify;
-    margin: 0;
-    padding: 0 20px 0 20px;
-    font-size: small;
-}
-
-.card-footer{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.box{
+    width: 20%;
+    height: 95%;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
     padding: 0;
 }
 
-.card-footer p{
-    margin: 0;
-    padding-left: 20px;
-    padding-bottom: 20px;
+.top-box img{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-.card-footer img{
-    align-items: flex-start;
-    width: 22px;
-    height: 22px;
+.top-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.box h3{
+    text-align: center;
     margin: 0;
-    padding-right: 20px;
+    padding: 0;
+}
+
+.box p{
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: small;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
 }

@@ -11,8 +11,8 @@ function Login () {
                 <p>Forgot your password? <span href="#"><strong>Click Here.</strong></span></p>
                 <button className="sign-in">Sign In</button>
                 <p>Or sigh in with:</p>
-                <button><i className="fa-brands fa-google"></i> Google</button> 
-                <button><i className="fa-brands fa-facebook"></i> Facebook</button> 
+                <button className="brands"> Google</button>
+                <button className="brands"> Facebook</button>
                 <p>Don't have a account? <span href="#"><strong>Sign up here.</strong></span></p>
             </div>
         </div>

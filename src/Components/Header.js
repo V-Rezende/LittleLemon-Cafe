@@ -1,5 +1,5 @@
 import style from "./Header.css";
-
+import { Link } from "react-router-dom";
 
 function Header () {
 
@@ -11,7 +11,9 @@ function Header () {
                             <h1>Little Lemon Café</h1>
                             <h3>Gold Coast</h3>
                             <p>Nestled in Gold Coast, Little Lemon Café exudes warmth with its South American charm. The cozy ambiance, vibrant decor, and aromatic coffee create a welcoming haven for locals and visitors alike.</p>
-                            <button className="header-button" type="">Reserve a Table</button>
+                            <Link className="header-button" type="button" to="/reservation">
+                                Reserve a Table
+                            </Link>
                         </div>
                         <div className="header-right">
                             <img src="/Images/restaurant chef B.jpg" alt="Image Header"/>

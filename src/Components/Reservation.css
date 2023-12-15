@@ -9,6 +9,46 @@
 .form{
     display: flex;
     flex-direction: column;
+    background-color: whitesmoke;
+    color: #253325;
+    height: 390px;
+    width: 320px;
+    padding: 20px 20px;
     align-items: flex-start;
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 4px 0;
+}
+
+label {
+    padding: 5px 0;
+}
+
+input{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.form button{
+    width: 100%;
+    background-color: rgba(110,188,133,0.96);
+    color: black;
+    border: 0;
+    border-radius: 2px;
+    padding: 8px 0;
+    font-size: 15px;
+    box-shadow: 1px 1px 3px 0;
+    margin-top: 20px;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background: black;
+    color: rgba(110, 188, 133, 0.96);
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px 0;
 }

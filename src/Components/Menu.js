@@ -6,36 +6,36 @@ function Menu () {
             <div className="menu-content">
                 <h1>Little Lemon Menu <span><img src="/Images/Asset 7@4x.png"/></span></h1>
                     <ul className="menu-list">
-                        <li class="category-bev">Beverages</li>
+                        <li class="category-bev">Bebidas</li>
                             <ul className="menu-itens">
-                                <li className="item">Coffee: <span class="price">$2.50</span></li>
-                                <li className="item">Tea: <span class="price">$2.00</span></li>
-                                <li className="item">Mate: <span class="price">$3.00</span></li>
-                                <li className="item">Fresh Fruit Juices: <span class="price">$4.00</span></li>
+                                <li className="item">Café: <span class="price">$4,00</span></li>
+                                <li className="item">Chá: <span class="price">$4,00</span></li>
+                                <li className="item">Mate Leão: <span class="price">$6,00</span></li>
+                                <li className="item">Fresh Fruit Juices: <span class="price">$8,00</span></li>
                             </ul>
 
-                        <li class="category-app">Appetizers</li>
+                        <li class="category-app">Entradas</li>
                             <ul className="menu-itens">
-                                <li className="item">Empanadas: <span class="price">$3.50</span></li>
-                                <li className="item">Arepas: <span class="price">$4.00</span></li>
-                                <li className="item">Yucca Fries: <span class="price">$3.00</span></li>
-                                <li className="item">Plantain Chips: <span class="price">$2.50</span></li>
+                                <li className="item">Pão de Quejo: <span class="price">$8,00</span></li>
+                                <li className="item">Pão Com Mortadela: <span class="price">$8,00</span></li>
+                                <li className="item">Bolo de Aipim: <span class="price">$10,00</span></li>
+                                <li className="item">Bolo de Milho: <span class="price">$10,00</span></li>
                             </ul>
 
-                        <li class="category-lun">For Lunch</li>
+                        <li class="category-lun">Almoço</li>
                             <ul className="menu-itens">
-                                <li className="item">Asado (Grilled Meat): <span class="price">$10.00</span></li>
+                                <li className="item">Asado: <span class="price">$10.00</span></li>
                                 <li className="item">Ceviche: <span class="price">$8.50</span></li>
-                                <li className="item">Feijoada (Brazilian Stew): <span class="price">$9.00</span></li>
-                                <li className="item">Lomo Saltado (Peruvian Stir-Fry): <span class="price">$11.50</span></li>
+                                <li className="item">Feijoada: <span class="price">$9.00</span></li>
+                                <li className="item">Lomo Saltado: <span class="price">$11.50</span></li>
                             </ul>
 
-                        <li class="category-des">Desserts</li>
+                        <li class="category-des">Doces</li>
                             <ul className="menu-itens">
-                                <li className="item">Tres Leches Cake: <span class="price">$5.00</span></li>
-                                <li className="item">Alfajores: <span class="price">$2.50</span></li>
-                                <li className="item">Churros: <span class="price">$3.00</span></li>
-                                <li className="item">Flan: <span class="price">$4.50</span></li>
+                                <li className="item">Pudim: <span class="price">$5,00</span></li>
+                                <li className="item">Alfajores: <span class="price">$4,50</span></li>
+                                <li className="item">Churros: <span class="price">$6,00</span></li>
+                                <li className="item">Brigadeiro: <span class="price">$3,50</span></li>
                             </ul>
                     </ul>
             </div>

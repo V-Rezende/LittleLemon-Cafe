@@ -1,0 +1,161 @@
+
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100wh;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal{
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4ce14;
+    color: darkgreen;
+    margin: 0;
+    border-bottom: 1px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.modal-header h3{
+    padding-left: 20px;
+}
+
+span{
+    padding-right: 10px;
+}
+
+span img{
+    width: 20px;
+}
+
+span button{
+    background-color: transparent;
+    border: none;
+}
+
+span button:hover{
+    cursor: pointer;
+}
+
+.modal-body{
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #eadb94;
+}
+
+.modal-image img{
+    grid-column: 1;
+    width: 100%;
+    height: 335px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.modal-content{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.modal-content h2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    color: darkgreen;
+}
+
+.modal-content p{
+    display: flex;
+    text-align: justify;
+    font-size: medium;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    padding: 0 20px 0 20px;
+    color: darkgreen;
+}
+
+.modal-content h3{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: darkgreen;
+}
+
+.modal-title{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.modal-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #f4ce14;
+    margin: 0;
+    border-top: 1px solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.confirm-button{
+    width: 15%;
+    font-size: medium;
+    background-color: rgba(110,188,133,0.96);
+    border: 1px solid rgb(51, 76, 51);
+    color: rgb(51, 76, 51);
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.confirm-button:hover{
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px 0;
+}
+
+.add-button button{
+    width: 30px;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid rgb(51, 76, 51);
+    color: rgb(51, 76, 51);
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-button span{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(51, 76, 51);
+    margin-left: 9px;
+
+}
+
+
