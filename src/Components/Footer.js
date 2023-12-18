@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import style from "./Footer.css";
 import React from "react";
 import { Link } from "react-router-dom";

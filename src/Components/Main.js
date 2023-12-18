@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import style from "./Main.css";
 import { Link } from 'react-router-dom';
 import Modal from "./Modal.js";

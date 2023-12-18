@@ -1,4 +1,5 @@
-import styles from "./Reservation.css";
+// eslint-disable-next-line
+import style from "./Reservation.css";
 import React, { useState } from "react";
 //import { submitAPI } from './apiUtils'; // Correct the path as needed
 

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import style from './About.css';
 import React from 'react';
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Submitted from './Submitted';
-
+// eslint-disable-next-line
 import style from './Modal.css';
 
 const Modal = ({isOpen, setOpenModal, modalContent }) => {
