@@ -38,7 +38,7 @@ return (
             </div>
                 <div className="container">
                     <div className="card">
-                        <img className="image-1" src="./Images/smashed avo.jpg"alt="Smashed Avo" />
+                        <img className="image-1" src="./Images/smashed avo.jpg" alt="Smashed Avo" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-1">Rio Bennie</h3>
@@ -149,7 +149,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./Images/Kelly.jpg" alt="Kelly"/>
+                                <img src="./Kelly.jpg" alt="Kelly"/>s
                                 <h2>Kelly</h2>
                         </div>
                             <h5>"Lovely Customer Service!"</h5>
