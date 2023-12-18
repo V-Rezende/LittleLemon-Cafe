@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Little-Lemon-Caf-/static/css/main.0d72358e.css",
+    "main.js": "/Little-Lemon-Caf-/static/js/main.be057b67.js",
+    "static/js/787.c4df67fb.chunk.js": "/Little-Lemon-Caf-/static/js/787.c4df67fb.chunk.js",
+    "index.html": "/Little-Lemon-Caf-/index.html",
+    "main.0d72358e.css.map": "/Little-Lemon-Caf-/static/css/main.0d72358e.css.map",
+    "main.be057b67.js.map": "/Little-Lemon-Caf-/static/js/main.be057b67.js.map",
+    "787.c4df67fb.chunk.js.map": "/Little-Lemon-Caf-/static/js/787.c4df67fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d72358e.css",
+    "static/js/main.be057b67.js"
+  ]
+}
