@@ -38,7 +38,7 @@ return (
             </div>
                 <div className="container">
                     <div className="card">
-                        <img className="image-1" src="./Images/smashed avo.jpg" alt="Smashed Avo" />
+                        <img className="image-1" src="./images/smashedavo.jpg" alt="Smashed Avo" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-1">Rio Bennie</h3>
@@ -51,7 +51,7 @@ return (
                                 type="button"
                                 className="special-1"
                                 onClick={() => handleClick(
-                                    "./Images/smashed avo.jpg",
+                                    "./images/smashedavo.jpg",
                                     "Rio Bennie",
                                     "$16,00",
                                     "Indulge in a tantalizing twist on the classic Eggs Benedict, as delicate poached eggs meet zesty hollandaise with a touch of South American flair, awakening your taste buds."
@@ -69,7 +69,7 @@ return (
                     </Modal>
 
                     <div className="card">
-                        <img className="image-2" src="./Images/acai.jpg" alt="Açaí" />
+                        <img className="image-2" src="./images/acai.jpg" alt="Açaí" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-2">Açaí do Rico</h3>
@@ -82,7 +82,7 @@ return (
                                 type='button'
                                 className="special-2"
                                 onClick={() => handleClick(
-                                    "./Images/acai.jpg",
+                                    "./images/acai.jpg",
                                     "Açaí do Rico",
                                     "$14,00",
                                     "Savor the essence of Brazil with a delectable açaí bowl, blending the rich flavors of Brazilian berries, organic almond granola into a vibrant and wholesome culinary delight."
@@ -93,7 +93,7 @@ return (
                     </div>
 
                     <div className="card">
-                        <img className="image-3" src="./Images/pingado.jpg" alt="Pingado" />
+                        <img className="image-3" src="./images/pingado.jpg" alt="Pingado" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-3">Pingado</h3>
@@ -106,7 +106,7 @@ return (
                                 type='button'
                                 className="special-3"
                                 onClick={() => handleClick(
-                                    "./Images/pingado.jpg",
+                                    "./images/pingado.jpg",
                                     "Pingado",
                                     "$8,00",
                                     "The classic 'pingado' is a unic Brazilian delight, featuring a strong latte paired with two slices of buttered French bread, creating a comforting and flavorful 'boteco' feelings."
@@ -125,7 +125,7 @@ return (
                 <div className="all-boxes">
                     <div className="box">
                         <div className="top-box">
-                            <img src="./Images/Marcia.jpg" alt="Marcia"/>
+                            <img src="./images/Marcia.jpg" alt="Marcia"/>
                             <h2>Marcia</h2>
                         </div>
                             <h5>"Great Athmosphere!"</h5>
@@ -133,7 +133,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./Images/Leo.jpg" alt="Leo"/>
+                                <img src="./images/Leo.jpg" alt="Leo"/>
                                 <h2>Leo</h2>
                         </div>
                             <h5>"I love the Music!"</h5>
@@ -141,7 +141,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./Images/Carina.jpg" alt="Carina"/>
+                                <img src="./images/Carina.jpg" alt="Carina"/>
                                 <h2>Carina</h2>
                         </div>
                             <h5>"The Best Açaí ever!"</h5>
@@ -149,7 +149,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./Images/Kelly.jpg" alt="Kelly"/>
+                                <img src="./images/Kelly.jpg" alt="Kelly"/>
                                 <h2>Kelly</h2>
                         </div>
                             <h5>"Lovely Customer Service!"</h5>
