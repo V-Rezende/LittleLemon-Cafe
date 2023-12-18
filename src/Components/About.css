@@ -44,3 +44,19 @@
     line-height: 1.5rem;
     color: #526652;
 }
+
+@media (min-width:768px) and (max-width: 1230px){
+    .about{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        background-color: #f8f0cd;
+    }
+}
+
+@media (min-width:375px) and (max-width: 767px) {
+    .about{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        background-color: #f8f0cd;
+    }
+}

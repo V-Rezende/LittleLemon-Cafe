@@ -78,3 +78,11 @@
     justify-content: space-between;
     gap: 20px;
 }
+
+@media (min-width:768px) and (max-width: 1230px){
+    .menu{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        background-color: #f8f0cd;
+    }
+}

@@ -71,3 +71,23 @@ footer img{
     font-weight: bolder;
     cursor: pointer;
 }
+
+@media (min-width:768px) and (max-width: 1230px) {
+    footer{
+        display: grid;
+        grid-template-columns: 5% 30% 20% 20% 20% 5%;
+        grid-template-rows: 270px;
+        background-color: #edefee;
+        color: rgb(51, 76, 51);
+    }
+}
+
+@media (min-width:375px) and (max-width: 767px) {
+    footer{
+        display: grid;
+        grid-template-columns: 5% 30% 20% 20% 20% 5%;
+        grid-template-rows: 270px;
+        background-color: #edefee;
+        color: rgb(51, 76, 51);
+    }
+}

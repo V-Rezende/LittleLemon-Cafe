@@ -42,5 +42,113 @@ nav img{
     padding-top: 10px;
 }
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (min-width:768px) and (max-width: 1014px) {
+    .nav-menu {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 30%;
+        background-color: #334c33;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-bottom: 5px;
+    }
+
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #334c33;
+        color: whitesmoke;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-menu ul li{
+        font-size: large;
+        padding-bottom: 10px;
+    }
+
+    .open{
+        display: block;
+    }
+}
+
+@media (min-width:375px) and (max-width: 767px){
+    .nav-menu {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 30%;
+        background-color: #334c33;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-bottom: 5px;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #334c33;
+        color: whitesmoke;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-menu ul li{
+        font-size: large;
+        padding-bottom: 10px;
+    }
+
+    nav img{
+        justify-self: flex-end;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .open{
+        display: block;
+    }
+}
+
 
 

@@ -69,6 +69,7 @@
 }
 
 .card-main p{
+    text-align: justify;
     letter-spacing: 0.5px;
     line-height: 1.5;
     padding-left: 20px;
@@ -106,7 +107,7 @@
 .testimonials{
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    height: 350px;
+    height: auto;
     background-color: #e7e1c3;
 }
 
@@ -121,6 +122,7 @@
     height: 95%;
     background-color: whitesmoke;
     box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+    margin-bottom: 10px;
     padding: 0;
 }
 
@@ -146,7 +148,7 @@
 }
 
 .box p{
-    text-align: start;
+    text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -154,3 +156,187 @@
     letter-spacing: 0.3px;
     line-height: 1.5;
 }
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (min-width:768px) and (max-width: 1230px) {
+
+    .specials{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        background-color: #eadb94;
+    }
+
+    .card{
+        width: 32%;
+        background-color: #edefee;
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+        margin-bottom: 40px;
+    }
+
+    .online-menu{
+        text-decoration: none;
+        background-color: #1d321d;
+        border: 1px solid rgb(201, 248, 195);
+        width: 30%;
+        color: rgb(201, 248, 195);
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+    }
+
+    .card-main p{
+        text-align: justify;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-content button{
+        width: 90%;
+        font-size: small;
+        background-color: #f4ce14;
+        border: 2px solid rgb(51, 76, 51);
+        color: rgb(51, 76, 51);
+        border-radius: 20px;
+        padding: 8px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        height: auto;
+        background-color: #e7e1c3;
+    }
+
+    .all-boxes{
+        grid-column: 2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box{
+        width: 23%;
+        height: 95%;
+        background-color: whitesmoke;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .card-main p{
+        text-align: justify;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-title h3{
+        font-size: medium;
+        color: darkgreen;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width:375px) and (max-width: 767px){
+    .specials{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        background-color: #eadb94;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        grid-column: 2;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        background-color: #edefee;
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+        margin-bottom: 40px;
+    }
+
+    .online-menu{
+        text-decoration: none;
+        background-color: #1d321d;
+        border: 1px solid rgb(201, 248, 195);
+        width: 30%;
+        color: rgb(201, 248, 195);
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+    }
+
+    .card-main p{
+        text-align: justify;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-content button{
+        width: 80%;
+        font-size: small;
+        align-self: center;
+        background-color: #f4ce14;
+        border: 2px solid rgb(51, 76, 51);
+        color: rgb(51, 76, 51);
+        border-radius: 20px;
+        padding: 8px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials{
+        display: grid;
+        grid-template-columns: 4% 92% 4%;
+        height: auto;
+        background-color: #e7e1c3;
+    }
+
+    .all-boxes{
+        grid-column: 2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box{
+        width: 24%;
+        height: 95%;
+        background-color: whitesmoke;
+        box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .card-main p{
+        text-align: justify;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-title h3{
+        font-size: medium;
+        color: darkgreen;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
