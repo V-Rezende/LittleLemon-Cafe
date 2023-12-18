@@ -149,7 +149,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./Kelly.jpg" alt="Kelly"/>s
+                                <img src="./Images/Kelly.jpg" alt="Kelly"/>
                                 <h2>Kelly</h2>
                         </div>
                             <h5>"Lovely Customer Service!"</h5>

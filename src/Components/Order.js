@@ -32,7 +32,7 @@ function Order () {
                             <img
                                 className='photo'
                                 src="./Images/espresso.jpg"
-                                alt="Smashed Avo" />
+                                alt="Espresso" />
                             <div className="card-content">
                                 <div className="card-title">
                                     <h3 className="item">Expresso</h3>
@@ -48,7 +48,7 @@ function Order () {
                                     type="button"
                                     onClick={() => handleClick(
                                         "./Images/espresso.jpg",
-                                        "Expresso",
+                                        "Espresso",
                                         "$4,00",
                                         "Rich and robust, Brazilian espresso captivates with its intense flavor and velvety crema. Grown in the sun-kissed landscapes, it offers a bold and delightful caffeine experience, embodying Brazil's coffee legacy."
                                     )}>
@@ -65,7 +65,7 @@ function Order () {
                         </Modal>
 
                         <div className="card-order">
-                            <img src="./Images/mate Limão.jpg"alt="Smashed Avo" />
+                            <img src="./Images/mate Limão.jpg"alt="Mate Limão" />
                             <div className="card-content">
                                 <div className="card-title">
                                     <h3 className="item">Mate Limão</h3>
@@ -88,7 +88,7 @@ function Order () {
                             </div>
                         </div>
                         <div className="card-order">
-                            <img src="./Images/Suco.jpeg"alt="Smashed Avo" />
+                            <img src="./Images/Suco.jpeg"alt="Fresh Juice" />
                             <div className="card-content">
                                 <div className="card-title">
                                     <h3 className="item">Fresh Juice</h3>
@@ -114,7 +114,7 @@ function Order () {
                 <h1>Entradas</h1>
                     <div className="card-group-entradas">
                             <div className="card-order">
-                                <img src="./Images/paodequeijo.jpg"alt="Smashed Avo" />
+                                <img src="./Images/paodequeijo.jpg"alt="Pão de Queijo" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pão de Queijo</h3>
@@ -137,7 +137,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./Images/pao.jpg"alt="Smashed Avo" />
+                                <img src="./Images/pao.jpg"alt="Pão com Mortadela" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pão com Mortadela</h3>
@@ -160,7 +160,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./Images/bolo.jpg"alt="Smashed Avo" />
+                                <img src="./Images/bolo.jpg"alt="Bolo de Milho" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Bolo de Milho</h3>
@@ -186,7 +186,7 @@ function Order () {
                 <h1>Doces</h1>
                     <div className="card-group-doces">
                             <div className="card-order">
-                                <img src="./Images/pudim.jpg"alt="Smashed Avo" />
+                                <img src="./Images/pudim.jpg"alt="Pudim" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pudim</h3>
@@ -209,7 +209,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./Images/churros.jpg"alt="Smashed Avo" />
+                                <img src="./Images/churros.jpg"alt="Churros" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Churros</h3>
@@ -232,7 +232,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./Images/briga.jpg"alt="Smashed Avo" />
+                                <img src="./Images/briga.jpg"alt="Brigadeiro" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Brigadeiro</h3>
