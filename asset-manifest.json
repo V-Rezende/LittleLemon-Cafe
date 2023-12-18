@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Little-Lemon-Caf-/static/css/main.c2b89ec7.chunk.css",
-    "main.js": "/Little-Lemon-Caf-/static/js/main.57ebbd43.chunk.js",
-    "main.js.map": "/Little-Lemon-Caf-/static/js/main.57ebbd43.chunk.js.map",
-    "runtime~main.js": "/Little-Lemon-Caf-/static/js/runtime~main.ecc61290.js",
-    "runtime~main.js.map": "/Little-Lemon-Caf-/static/js/runtime~main.ecc61290.js.map",
-    "static/js/2.1db185f0.chunk.js": "/Little-Lemon-Caf-/static/js/2.1db185f0.chunk.js",
-    "static/js/2.1db185f0.chunk.js.map": "/Little-Lemon-Caf-/static/js/2.1db185f0.chunk.js.map",
-    "static/js/3.d5f86460.chunk.js": "/Little-Lemon-Caf-/static/js/3.d5f86460.chunk.js",
-    "static/js/3.d5f86460.chunk.js.map": "/Little-Lemon-Caf-/static/js/3.d5f86460.chunk.js.map",
-    "index.html": "/Little-Lemon-Caf-/index.html",
-    "precache-manifest.ce27ecf58337d05ef12490818805000c.js": "/Little-Lemon-Caf-/precache-manifest.ce27ecf58337d05ef12490818805000c.js",
-    "service-worker.js": "/Little-Lemon-Caf-/service-worker.js",
-    "static/css/main.c2b89ec7.chunk.css.map": "/Little-Lemon-Caf-/static/css/main.c2b89ec7.chunk.css.map"
+    "main.css": "/Little-Lemon-Caf/static/css/main.c2b89ec7.chunk.css",
+    "main.js": "/Little-Lemon-Caf/static/js/main.57ebbd43.chunk.js",
+    "main.js.map": "/Little-Lemon-Caf/static/js/main.57ebbd43.chunk.js.map",
+    "runtime~main.js": "/Little-Lemon-Caf/static/js/runtime~main.731edb4c.js",
+    "runtime~main.js.map": "/Little-Lemon-Caf/static/js/runtime~main.731edb4c.js.map",
+    "static/js/2.1db185f0.chunk.js": "/Little-Lemon-Caf/static/js/2.1db185f0.chunk.js",
+    "static/js/2.1db185f0.chunk.js.map": "/Little-Lemon-Caf/static/js/2.1db185f0.chunk.js.map",
+    "static/js/3.d5f86460.chunk.js": "/Little-Lemon-Caf/static/js/3.d5f86460.chunk.js",
+    "static/js/3.d5f86460.chunk.js.map": "/Little-Lemon-Caf/static/js/3.d5f86460.chunk.js.map",
+    "index.html": "/Little-Lemon-Caf/index.html",
+    "precache-manifest.4f895c9eec56f3cce07c0056f4f9f5b9.js": "/Little-Lemon-Caf/precache-manifest.4f895c9eec56f3cce07c0056f4f9f5b9.js",
+    "service-worker.js": "/Little-Lemon-Caf/service-worker.js",
+    "static/css/main.c2b89ec7.chunk.css.map": "/Little-Lemon-Caf/static/css/main.c2b89ec7.chunk.css.map"
   }
 }
