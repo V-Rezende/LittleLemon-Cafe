@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Little-Lemon-Caf/static/css/main.c2b89ec7.chunk.css",
-    "main.js": "/Little-Lemon-Caf/static/js/main.57ebbd43.chunk.js",
-    "main.js.map": "/Little-Lemon-Caf/static/js/main.57ebbd43.chunk.js.map",
-    "runtime~main.js": "/Little-Lemon-Caf/static/js/runtime~main.731edb4c.js",
-    "runtime~main.js.map": "/Little-Lemon-Caf/static/js/runtime~main.731edb4c.js.map",
-    "static/js/2.1db185f0.chunk.js": "/Little-Lemon-Caf/static/js/2.1db185f0.chunk.js",
-    "static/js/2.1db185f0.chunk.js.map": "/Little-Lemon-Caf/static/js/2.1db185f0.chunk.js.map",
-    "static/js/3.d5f86460.chunk.js": "/Little-Lemon-Caf/static/js/3.d5f86460.chunk.js",
-    "static/js/3.d5f86460.chunk.js.map": "/Little-Lemon-Caf/static/js/3.d5f86460.chunk.js.map",
-    "index.html": "/Little-Lemon-Caf/index.html",
-    "precache-manifest.4f895c9eec56f3cce07c0056f4f9f5b9.js": "/Little-Lemon-Caf/precache-manifest.4f895c9eec56f3cce07c0056f4f9f5b9.js",
-    "service-worker.js": "/Little-Lemon-Caf/service-worker.js",
-    "static/css/main.c2b89ec7.chunk.css.map": "/Little-Lemon-Caf/static/css/main.c2b89ec7.chunk.css.map"
+    "main.css": "./static/css/main.c2b89ec7.chunk.css",
+    "main.js": "./static/js/main.9bc820cc.chunk.js",
+    "main.js.map": "./static/js/main.9bc820cc.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.2a942587.js",
+    "runtime~main.js.map": "./static/js/runtime~main.2a942587.js.map",
+    "static/js/2.1db185f0.chunk.js": "./static/js/2.1db185f0.chunk.js",
+    "static/js/2.1db185f0.chunk.js.map": "./static/js/2.1db185f0.chunk.js.map",
+    "static/js/3.d5f86460.chunk.js": "./static/js/3.d5f86460.chunk.js",
+    "static/js/3.d5f86460.chunk.js.map": "./static/js/3.d5f86460.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.da7744e8b9d3a643a40c740b107fbb44.js": "./precache-manifest.da7744e8b9d3a643a40c740b107fbb44.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c2b89ec7.chunk.css.map": "./static/css/main.c2b89ec7.chunk.css.map"
   }
 }
