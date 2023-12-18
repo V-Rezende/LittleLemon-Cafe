@@ -17,7 +17,7 @@ function Nav () {
 return (
     <div>
         <nav className="nav-menu">
-            <img src="/Images/Asset 9@4x.png" alt="Logo"/>
+            <img src="./Images/Asset 9@4x.png" alt="Logo"/>
                 <div className="nav-list">
                     <ul>
                         <li><Link to="/" className="nav-item">Home</Link></li>

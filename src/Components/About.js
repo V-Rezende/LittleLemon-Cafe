@@ -4,7 +4,7 @@ function About () {
     return (
         <div className="about">
             <div className="about-title">
-                <img src="/Images/logo.nav.png" alt="About Logo"/>
+                <img src="./Images/logo.nav.png" alt="About Logo"/>
                 <h1>| About us:</h1>
             </div>
             <div className="about-content">
