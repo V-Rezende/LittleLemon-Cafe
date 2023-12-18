@@ -1,4 +1,5 @@
 import style from "./Header.css";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Header () {
@@ -16,7 +17,7 @@ function Header () {
                             </Link>
                         </div>
                         <div className="header-right">
-                            <img src="./Images/restaurant chef B.jpg" alt="Image Header"/>
+                            <img src="./Images/restaurant chef B.jpg" alt="Café Chef"/>
                         </div>
                 <div></div>
             </header>

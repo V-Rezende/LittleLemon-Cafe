@@ -10,7 +10,7 @@ const Submitted = ({ isOpen, setOpenSubmitted }) => {
                         <div className='submitted-header'>
                             <h3>Order Submitted</h3>
                             <span>
-                                <button><img src="./Images/icons8-close-50.png"/>
+                                <button><img src="./Images/icons8-close-50.png" alt="icone"/>
                                 <Link
                                     className="close-button"
                                     type="button"

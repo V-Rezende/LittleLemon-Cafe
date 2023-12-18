@@ -1,10 +1,11 @@
 import style from "./Menu.css";
+import React from "react";
 
 function Menu () {
     return (
         <div className="menu">
             <div className="menu-content">
-                <h1>Little Lemon Menu <span><img src="./Images/Asset 7@4x.png"/></span></h1>
+                <h1>Little Lemon Menu <span><img src="./Images/Asset 7@4x.png" alt="logo" /></span></h1>
                     <ul className="menu-list">
                         <li class="category-bev">Bebidas</li>
                             <ul className="menu-itens">

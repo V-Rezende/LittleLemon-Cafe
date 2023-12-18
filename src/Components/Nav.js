@@ -29,7 +29,7 @@ return (
                     </ul>
                 </div>
                 <div className="mobile-menu-icon">
-                    <button onClick={() => menuShow()} className="menu-icon"><img src="./Images/hamburger-menu-50.png"/></button>
+                    <button onClick={() => menuShow()} className="menu-icon"><img src="./Images/hamburger-menu-50.png" alt="icone"/></button>
                 </div>
         </nav>
         <div className="mobile-menu">

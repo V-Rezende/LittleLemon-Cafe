@@ -8,7 +8,7 @@ function Footer () {
 
         <footer>
             <div></div>
-                <img src="./Images/restaurant.jpg" alt="Footer Image"/>
+                <img src="./Images/restaurant.jpg" alt="Little Lemon"/>
                     <ul className="navigation">
                         <li><Link to="/" className="footer-item">Home</Link></li>
                         <li><Link to="/about" className="footer-item">About</Link></li>
