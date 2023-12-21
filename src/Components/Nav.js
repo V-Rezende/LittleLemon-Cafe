@@ -18,7 +18,7 @@ function Nav () {
 return (
     <div>
         <nav className="nav-menu">
-            <img src="./images/Asset 9@4x.png" alt="Logo"/>
+            <img src="./images/asset9@4x.PNG" alt="Logo"/>
                 <div className="nav-list">
                     <ul>
                         <li><Link to="/" className="nav-item">Home</Link></li>
@@ -30,7 +30,7 @@ return (
                     </ul>
                 </div>
                 <div className="mobile-menu-icon">
-                    <button onClick={() => menuShow()} className="menu-icon"><img src="./images/hamburger-menu-50.png" alt="icone"/></button>
+                    <button onClick={() => menuShow()} className="menu-icon"><img src="./images/hamburger-menu-50.PNG" alt="icone"/></button>
                 </div>
         </nav>
         <div className="mobile-menu">

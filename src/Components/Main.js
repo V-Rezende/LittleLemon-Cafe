@@ -39,7 +39,7 @@ return (
             </div>
                 <div className="container">
                     <div className="card">
-                        <img className="image-1" src="./images/smashedavo.jpg" alt="Smashed Avo" />
+                        <img className="image-1" src="./images/smashedavo.JPG" alt="Smashed Avo" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-1">Rio Bennie</h3>
@@ -70,7 +70,7 @@ return (
                     </Modal>
 
                     <div className="card">
-                        <img className="image-2" src="./images/acai.jpg" alt="Açaí" />
+                        <img className="image-2" src="./images/acai.JPG" alt="Açaí" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-2">Açaí do Rico</h3>
@@ -94,7 +94,7 @@ return (
                     </div>
 
                     <div className="card">
-                        <img className="image-3" src="./images/pingado.jpg" alt="Pingado" />
+                        <img className="image-3" src="./images/pingado.JPG" alt="Pingado" />
                         <div className="card-content">
                             <div className="card-title">
                                 <h3 className="item-3">Pingado</h3>
@@ -126,7 +126,7 @@ return (
                 <div className="all-boxes">
                     <div className="box">
                         <div className="top-box">
-                            <img src="./images/Marcia.jpg" alt="Marcia"/>
+                            <img src="./images/marcia.JPG" alt="Marcia"/>
                             <h2>Marcia</h2>
                         </div>
                             <h5>"Great Athmosphere!"</h5>
@@ -134,7 +134,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./images/Leo.jpg" alt="Leo"/>
+                                <img src="./images/leo.JPG" alt="Leo"/>
                                 <h2>Leo</h2>
                         </div>
                             <h5>"I love the Music!"</h5>
@@ -142,7 +142,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./images/Carina.jpg" alt="Carina"/>
+                                <img src="./images/carina.JPG" alt="Carina"/>
                                 <h2>Carina</h2>
                         </div>
                             <h5>"The Best Açaí ever!"</h5>
@@ -150,7 +150,7 @@ return (
                     </div>
                     <div className="box">
                         <div className="top-box">
-                                <img src="./images/Kelly.jpg" alt="Kelly"/>
+                                <img src="./images/kelly.JPG" alt="Kelly"/>
                                 <h2>Kelly</h2>
                         </div>
                             <h5>"Lovely Customer Service!"</h5>

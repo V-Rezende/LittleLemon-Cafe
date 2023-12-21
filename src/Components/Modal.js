@@ -26,6 +26,10 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
         return quantity > 0 ? quantity * priceNumber : 0;
     }
 
+    const resetPrice = () => {
+        setQuantity(0)
+    }
+
     const formattedTotalPrice = new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
@@ -64,6 +68,7 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
                                 alert("Order Confirmed and Submitted.Thank you for choose Little Lemon Café! ")
                                 setOpenModal(false) //Close the Modal
                                 setOpenSubmitted(true) //Open Submitted component
+                                resetPrice()
                                 console.log("Clicked")
                             }}
                             type="button">

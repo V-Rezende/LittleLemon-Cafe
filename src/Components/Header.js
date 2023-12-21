@@ -18,7 +18,7 @@ function Header () {
                             </Link>
                         </div>
                         <div className="header-right">
-                            <img src="./images/restaurant chef B.jpg" alt="Café Chef"/>
+                            <img src="./images/restaurantchefb.JPG" alt="Café Chef"/>
                         </div>
                 <div></div>
             </header>
