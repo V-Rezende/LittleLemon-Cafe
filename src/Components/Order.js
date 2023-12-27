@@ -32,7 +32,7 @@ function Order () {
                         <div className="card-order">
                             <img
                                 className='photo'
-                                src="./images/espresso.JPG"
+                                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdFBK5a3vJvyXBT3L6z_OfvuJCbh3GIn7HKdzprGSpQSpcnNmy"
                                 alt="Espresso" />
                             <div className="card-content">
                                 <div className="card-title">
@@ -48,7 +48,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/espresso.JPG",
+                                        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdFBK5a3vJvyXBT3L6z_OfvuJCbh3GIn7HKdzprGSpQSpcnNmy",
                                         "Espresso",
                                         "$4,00",
                                         "Rich and robust, Brazilian espresso captivates with its intense flavor and velvety crema. Grown in the sun-kissed landscapes, it offers a bold and delightful caffeine experience, embodying Brazil's coffee legacy."
@@ -66,7 +66,7 @@ function Order () {
                         </Modal>
 
                         <div className="card-order">
-                            <img src="./images/mate.JPG"alt="Mate Limão" />
+                            <img src="https://media.istockphoto.com/id/1240573877/photo/tea-mate-with-lemon.jpg?s=612x612&w=0&k=20&c=5L-5rUnHs6WBvMOmrr9izky9kVMeQkLswivpJOtTqHY=" alt="Mate Limão" />
                             <div className="card-content">
                                 <div className="card-title">
                                     <h3 className="item">Mate Limão</h3>
@@ -79,7 +79,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/mate.JPG",
+                                        "https://media.istockphoto.com/id/1240573877/photo/tea-mate-with-lemon.jpg?s=612x612&w=0&k=20&c=5L-5rUnHs6WBvMOmrr9izky9kVMeQkLswivpJOtTqHY=",
                                         "Mate Limão",
                                         "$6,00",
                                         "Brazilian mate limão, a refreshing blend of yerba mate and zesty lime, captivates with its vibrant flavor, offering a delightful and energizing beverage enjoyed across diverse landscapes in Brazil."
@@ -89,7 +89,7 @@ function Order () {
                             </div>
                         </div>
                         <div className="card-order">
-                            <img src="./images/suco.JPG"alt="Fresh Juice" />
+                            <img src="https://media.istockphoto.com/id/1335903873/photo/pineapple-and-pineapple-juice-with-lime-and-mint-stock-photo.jpg?s=612x612&w=0&k=20&c=p0f5SyJblyrxGYVA0BbXG1lafDmo8q8S1iiIeqMXXSQ=" alt="Fresh Juice" />
                             <div className="card-content">
                                 <div className="card-title">
                                     <h3 className="item">Fresh Juice</h3>
@@ -102,7 +102,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/suco.JPG",
+                                        "https://media.istockphoto.com/id/1335903873/photo/pineapple-and-pineapple-juice-with-lime-and-mint-stock-photo.jpg?s=612x612&w=0&k=20&c=p0f5SyJblyrxGYVA0BbXG1lafDmo8q8S1iiIeqMXXSQ=",
                                         "Fresh Juice",
                                         "$8,00",
                                         "Savor the vibrant allure of a Brazilian elixir, a luscious concoction of succulent passion fruit, zesty acerola, and refreshing guava, delivering a tropical symphony in every invigorating sip. Try our freshest pinnaple with mint!"
@@ -115,7 +115,7 @@ function Order () {
                 <h1>Entradas</h1>
                     <div className="card-group-entradas">
                             <div className="card-order">
-                                <img src="./images/paodequeijo.JPG"alt="Pão de Queijo" />
+                                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbuDTMrJH3Rbf_VnjhIL0zs4zyN472mmGesKOTEbB3ShoKQLim" alt="Pão de Queijo" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pão de Queijo</h3>
@@ -128,7 +128,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/paodequeijo.JPG",
+                                        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbuDTMrJH3Rbf_VnjhIL0zs4zyN472mmGesKOTEbB3ShoKQLim",
                                         "Pão de Queijo",
                                         "$8,00",
                                         "Pão de queijo, a beloved Brazilian delight from Minas Gerais, is a cheesy, gluten-free bite-sized treat. Its irresistibly chewy texture and rich cheese flavor embody culinary perfection from the region."
@@ -138,7 +138,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./images/pao.JPG"alt="Pão com Mortadela" />
+                                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3dg90jpqx6brF85hiUS9De9TrZ8tdsb0eMk_DnIB3Yfb_wvmD" alt="Pão com Mortadela" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pão com Mortadela</h3>
@@ -151,7 +151,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/pao.JPG",
+                                        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3dg90jpqx6brF85hiUS9De9TrZ8tdsb0eMk_DnIB3Yfb_wvmD",
                                         "Pão com Mortadela",
                                         "$8,00",
                                         "Indulge in a gourmet delight with a lavish 'Pão com Mortadela', featuring a premium mortadela, paired with fresh, fragrant pão francês and luscious organic butter. Unparalleled, exquisite flavors await."
@@ -161,7 +161,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./images/bolo.JPG" alt="Bolo de Milho" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0K7t8iL-tv74qFK9sP1wkFUqoTbFTDQL11b750rbce5YbfJq" alt="Bolo de Milho" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Bolo de Milho</h3>
@@ -174,7 +174,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/bolo.JPG",
+                                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0K7t8iL-tv74qFK9sP1wkFUqoTbFTDQL11b750rbce5YbfJq",
                                         "Bolo de Milho",
                                         "$10,00",
                                         "Bolo de milho, a Brazilian corn cake, captures the essence of homemade warmth. Golden and moist, it blends cornmeal and coconut, creating a delightful, comforting treat that echoes traditional flavors."
@@ -187,7 +187,7 @@ function Order () {
                 <h1>Doces</h1>
                     <div className="card-group-doces">
                             <div className="card-order">
-                                <img src="./images/pudim.JPG" alt="Pudim" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlm8lxAifRfzKd0ausA7YbtuyCwMXXUEtS35tKH_pNCJbw_zDi"  alt="Pudim" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Pudim</h3>
@@ -200,7 +200,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/pudim.JPG",
+                                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlm8lxAifRfzKd0ausA7YbtuyCwMXXUEtS35tKH_pNCJbw_zDi",
                                         "Pudim",
                                         "$5,00",
                                         "Brazilian pudim is a luscious caramel custard dessert, beloved for its silky texture and sweet flavor. Made with condensed milk, eggs, and sugar, it's a classic Brazilian indulgence."
@@ -210,7 +210,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./images/churros.JPG" alt="Churros" />
+                                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThWwFEOnEKdkdGxIZDce7bE-ly3PjdUXaZpfUfAIySAa_SoCWr" alt="Churros" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Churros</h3>
@@ -223,7 +223,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/churros.JPG",
+                                        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThWwFEOnEKdkdGxIZDce7bE-ly3PjdUXaZpfUfAIySAa_SoCWr",
                                         "Churros",
                                         "$6,00",
                                         "Churros relleno with dulce de leche is a delectable treat, featuring golden-fried dough filled with luscious caramel. The crispy exterior complements the sweet, gooey center, creating a heavenly indulgence."
@@ -233,7 +233,7 @@ function Order () {
                                 </div>
                             </div>
                             <div className="card-order">
-                                <img src="./images/briga.JPG" alt="Brigadeiro" />
+                                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRrZfMia2CG8OYCxafVjshSdWasXTkeZBRZIVQ9C22OSg_xrUs" alt="Brigadeiro" />
                                 <div className="card-content">
                                     <div className="card-title">
                                         <h3 className="item">Brigadeiro</h3>
@@ -246,7 +246,7 @@ function Order () {
                                     className="order-button"
                                     type="button"
                                     onClick={() => handleClick(
-                                        "./images/briga.JPG",
+                                        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRrZfMia2CG8OYCxafVjshSdWasXTkeZBRZIVQ9C22OSg_xrUs",
                                         "Brigadeiro",
                                         "$3,50",
                                         "Brigadeiro is a Brazilian chocolate delicacy, crafted from condensed milk, cocoa, butter, and chocolate sprinkles. These fudgy delights offer a sweet and irresistible taste, symbolizing Brazilian culinary joy."
