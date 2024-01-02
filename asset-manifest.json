@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.0fcefbb1.chunk.css",
-    "main.js": "./static/js/main.725b373a.chunk.js",
-    "main.js.map": "./static/js/main.725b373a.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.2a942587.js",
-    "runtime~main.js.map": "./static/js/runtime~main.2a942587.js.map",
-    "static/js/2.1db185f0.chunk.js": "./static/js/2.1db185f0.chunk.js",
-    "static/js/2.1db185f0.chunk.js.map": "./static/js/2.1db185f0.chunk.js.map",
-    "static/js/3.d5f86460.chunk.js": "./static/js/3.d5f86460.chunk.js",
-    "static/js/3.d5f86460.chunk.js.map": "./static/js/3.d5f86460.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.37b1eac1e776fbe4b9f1a226754997c3.js": "./precache-manifest.37b1eac1e776fbe4b9f1a226754997c3.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.0fcefbb1.chunk.css.map": "./static/css/main.0fcefbb1.chunk.css.map"
+    "main.css": "/LittleLemon-Cafe/static/css/main.0fcefbb1.chunk.css",
+    "main.js": "/LittleLemon-Cafe/static/js/main.c470880f.chunk.js",
+    "main.js.map": "/LittleLemon-Cafe/static/js/main.c470880f.chunk.js.map",
+    "runtime~main.js": "/LittleLemon-Cafe/static/js/runtime~main.57caace7.js",
+    "runtime~main.js.map": "/LittleLemon-Cafe/static/js/runtime~main.57caace7.js.map",
+    "static/js/2.1db185f0.chunk.js": "/LittleLemon-Cafe/static/js/2.1db185f0.chunk.js",
+    "static/js/2.1db185f0.chunk.js.map": "/LittleLemon-Cafe/static/js/2.1db185f0.chunk.js.map",
+    "static/js/3.d5f86460.chunk.js": "/LittleLemon-Cafe/static/js/3.d5f86460.chunk.js",
+    "static/js/3.d5f86460.chunk.js.map": "/LittleLemon-Cafe/static/js/3.d5f86460.chunk.js.map",
+    "index.html": "/LittleLemon-Cafe/index.html",
+    "precache-manifest.68980174fedb7820e4bdc4955f2fe745.js": "/LittleLemon-Cafe/precache-manifest.68980174fedb7820e4bdc4955f2fe745.js",
+    "service-worker.js": "/LittleLemon-Cafe/service-worker.js",
+    "static/css/main.0fcefbb1.chunk.css.map": "/LittleLemon-Cafe/static/css/main.0fcefbb1.chunk.css.map"
   }
 }
