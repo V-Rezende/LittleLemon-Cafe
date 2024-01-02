@@ -28,8 +28,8 @@ function Footer () {
                     </ul>
                     <ul className="social-media">
                         <li><h4>Social Media</h4></li>
-                        <li><a href="instagram.com"></a>Instagram</li>
-                        <li><a href="facebook.com"></a>Facebook</li>
+                        <li><a href="https://www.instagram.com"></a>Instagram</li>
+                        <li><a href="https://www.facebook.com"></a>Facebook</li>
                     </ul>
             <div></div>
         </footer>

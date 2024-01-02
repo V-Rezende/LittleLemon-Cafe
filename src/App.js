@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 import Reservation from './Components/Reservation';
 import Order from './Components/Order';
 import Login from './Components/Login';
-import { useState, useReducer } from 'react';
+import { useReducer } from 'react';
 //import { fetchAPI, submitAPI } from './Components/apiUtils'; // Correct the path as needed
 
 //Reducer function to update availableTimes based on the selected date
@@ -38,15 +38,15 @@ const initializeTimes = () => [
 function App() {
 
   //Move availableTimes state to App component
-  {/* const [availableTimes, setAvailableTimes] = useState([
-    "6:00",
-    "7:00",
-    "8:00",
-    "9:00",
-    "10:00",
-    "11:00",
-    "12:00"
-]); */}
+    // const [availableTimes, setAvailableTimes] = useState([
+    // "6:00",
+    // "7:00",
+    // "8:00",
+    // "9:00",
+    // "10:00",
+    // "11:00",
+    // "12:00"
+//]);
 
   //Changing availableTimes to a reducer using useReducer function and provide the two previous functions as parameters.
   const [availableTimes, dispatch] = useReducer(timesReducer, [], initializeTimes);

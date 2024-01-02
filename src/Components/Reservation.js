@@ -40,12 +40,10 @@ function Reservations (props) {
         return;
     }
 
-    {/*
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        props.submitForm(e);
-    }
-    */}
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     props.submitForm(e);
+    // }
 
     const handleChange = (e) => {
         setDate(e);

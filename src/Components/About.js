@@ -6,7 +6,7 @@ function About () {
     return (
         <div className="about">
             <div className="about-title">
-                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS6jyzbxxF2tcMsuE0T5NPCjsI1bp04UmswGrH0vkoX-aYJCTwH" alt="About Logo"/>
+                <img src="https://restaurant-landing.pages.dev/letas.png" alt="About Logo"/>
                 <h1>| About us:</h1>
             </div>
             <div className="about-content">
