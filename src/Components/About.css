@@ -56,7 +56,17 @@
 @media (min-width:375px) and (max-width: 767px) {
     .about{
         display: grid;
-        grid-template-columns: 5% 90% 5%;
+        grid-template-columns: 10% 80% 10%;
         background-color: #f8f0cd;
+    }
+
+    .about-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content p{
+        font-size: medium;
     }
 }

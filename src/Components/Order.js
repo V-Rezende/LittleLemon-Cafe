@@ -12,7 +12,7 @@ function Order () {
         item:'',
         price:'',
         description:''
-    })
+    }) 
 
     const handleClick = (image, item, price, description) => {
         setModalContent({

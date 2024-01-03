@@ -12,7 +12,7 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
 
     const handleIncrement = () => {
     setQuantity(prevNumber => prevNumber + 1);
-   }
+   } 
 
     const handleDecrement = () => {
     setQuantity(prevNumber => (prevNumber > 0 ? prevNumber - 1 : 0));

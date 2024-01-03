@@ -87,7 +87,7 @@ header{
     }
 }
 
-@media (min-width:375px) and (max-width: 767px) {
+@media (min-width:370px) and (max-width: 767px) {
     header{
         display: flex;
         flex-direction: column;

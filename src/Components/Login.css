@@ -68,9 +68,14 @@ p span:hover{
     margin-right: 5px;
 }
 
+@media (min-width:370px) and (max-width: 767px){
+    .login-box{
+        height: 380px;
+        width: 280px;
+        padding: 20px 20px;
+    }
 
-
-
+}
 
 
 

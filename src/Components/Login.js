@@ -16,7 +16,7 @@ function Login () {
                 <button className="brands"> Google</button>
                 <button className="brands"> Facebook</button>
                 <p>Don't have a account? <span href="#"><strong>Sign up here.</strong></span></p>
-            </div>
+            </div> 
         </div>
     )
 }

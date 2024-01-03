@@ -98,7 +98,7 @@ nav img{
     }
 }
 
-@media (min-width:375px) and (max-width: 767px){
+@media (min-width:370px) and (max-width: 767px){
     .nav-menu {
         display: grid;
         grid-template-columns: 5% 90% 5%;

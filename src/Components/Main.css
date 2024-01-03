@@ -230,6 +230,10 @@
         padding: 0;
     }
 
+    .top-box img{
+        display: none;
+    }
+
     .card-main p{
         text-align: justify;
         letter-spacing: 0.5px;
@@ -246,7 +250,7 @@
     }
 }
 
-@media (min-width:375px) and (max-width: 767px){
+@media (min-width:370px) and (max-width: 767px){
     .specials{
         display: grid;
         grid-template-columns: 10% 80% 10%;
@@ -273,9 +277,10 @@
         text-decoration: none;
         background-color: #1d321d;
         border: 1px solid rgb(201, 248, 195);
-        width: 30%;
+        width: 35%;
+        height: auto;
+        font-weight: 400;
         color: rgb(201, 248, 195);
-        font-weight: bold;
         padding: 8px;
         border-radius: 20px;
         box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
@@ -304,24 +309,28 @@
 
     .testimonials{
         display: grid;
-        grid-template-columns: 4% 92% 4%;
-        height: auto;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: auto auto auto;
         background-color: #e7e1c3;
     }
 
     .all-boxes{
-        grid-column: 2;
-        display: flex;
-        justify-content: space-between;
+        grid-row: 2;
+        display: block;
     }
 
     .box{
-        width: 24%;
-        height: 95%;
+        width: 100%;
+        height: auto;
         background-color: whitesmoke;
         box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
         margin-bottom: 10px;
         padding: 0;
+        justify-content: center;
+    }
+
+    .top-box img{
+        display: none;
     }
 
     .card-main p{

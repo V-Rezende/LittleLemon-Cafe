@@ -52,3 +52,12 @@ input{
     cursor: pointer;
     box-shadow: 1px 2px 4px 0;
 }
+
+@media (min-width:370px) and (max-width: 767px){
+    .form{
+        height: 380px;
+        width: 280px;
+        padding: 20px 20px;
+    }
+
+}

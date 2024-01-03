@@ -9,7 +9,7 @@ function Menu () {
                 <h1>Little Lemon Menu <span><img src="https://littlelemon-app.vercel.app/static/media/logo.b8445110e4e49b6b30a0.png" alt="logo" /></span></h1>
                     <ul className="menu-list">
                         <li class="category-bev">Bebidas</li>
-                            <ul className="menu-itens">
+                            <ul className="menu-itens"> 
                                 <li className="item">Café: <span class="price">$4,00</span></li>
                                 <li className="item">Chá: <span class="price">$4,00</span></li>
                                 <li className="item">Mate Leão: <span class="price">$6,00</span></li>
