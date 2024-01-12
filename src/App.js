@@ -65,10 +65,10 @@ function App() {
             <div>
               <Routes>
                 <Route exact path="/LittleLemon-Cafe/" element={<Main />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/menu" element={<Menu />} />
+                <Route path="/LittleLemon-Cafe/about" element={<About />} />
+                <Route path="/LittleLemon-Cafe/menu" element={<Menu />} />
                 <Route
-                  path="/reservation"
+                  path="/LittleLemon-Cafe/reservation"
                   element={
                   <Reservation
                     availableTimes={availableTimes}
@@ -77,8 +77,8 @@ function App() {
                     onFormSubmit={handleFormSubmit} //Pass the callback function as a prop
                     /> }
                   />
-                <Route path="/order-online" element={<Order />} />
-                <Route path="/login" element={<Login />} />
+                <Route path="/LittleLemon-Cafe/order-online" element={<Order />} />
+                <Route path="/LittleLemon-Cafe/login" element={<Login />} />
               </Routes>
             </div>
           <Footer/>
