@@ -64,7 +64,7 @@ function App() {
           <Header/>
             <div>
               <Routes>
-                <Route exact path="" element={<Main />} />
+                <Route exact path="/LittleLemon-Cafe/" element={<Main />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/menu" element={<Menu />} />
                 <Route
