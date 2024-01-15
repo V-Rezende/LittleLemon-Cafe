@@ -42,7 +42,7 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
                 <div className='modal'>
                     <div className='modal-header'>
                         <h3>Order Confirmation</h3>
-                        <span><button onClick={() => setOpenModal(!isOpen)}><img src="https://icons8.com/icon/88571/close" alt="icone"/></button></span>
+                        <button onClick={() => setOpenModal(!isOpen)}><img src="https://icons8.com/icon/88571/close" alt="icone"/></button>
                     </div>
                     <div className='modal-body'>
                         <div className='modal-image'>
