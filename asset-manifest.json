@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LittleLemon-Cafe/static/css/main.ed7ac6bf.chunk.css",
-    "main.js": "/LittleLemon-Cafe/static/js/main.27983a9d.chunk.js",
-    "main.js.map": "/LittleLemon-Cafe/static/js/main.27983a9d.chunk.js.map",
+    "main.css": "/LittleLemon-Cafe/static/css/main.2d656405.chunk.css",
+    "main.js": "/LittleLemon-Cafe/static/js/main.39475508.chunk.js",
+    "main.js.map": "/LittleLemon-Cafe/static/js/main.39475508.chunk.js.map",
     "runtime~main.js": "/LittleLemon-Cafe/static/js/runtime~main.57caace7.js",
     "runtime~main.js.map": "/LittleLemon-Cafe/static/js/runtime~main.57caace7.js.map",
     "static/js/2.1db185f0.chunk.js": "/LittleLemon-Cafe/static/js/2.1db185f0.chunk.js",
@@ -10,8 +10,8 @@
     "static/js/3.d5f86460.chunk.js": "/LittleLemon-Cafe/static/js/3.d5f86460.chunk.js",
     "static/js/3.d5f86460.chunk.js.map": "/LittleLemon-Cafe/static/js/3.d5f86460.chunk.js.map",
     "index.html": "/LittleLemon-Cafe/index.html",
-    "precache-manifest.68bf7fd13bfa71df2baa9a6c0974f65b.js": "/LittleLemon-Cafe/precache-manifest.68bf7fd13bfa71df2baa9a6c0974f65b.js",
+    "precache-manifest.1836e92a5c23816e8b8e5c838db26fca.js": "/LittleLemon-Cafe/precache-manifest.1836e92a5c23816e8b8e5c838db26fca.js",
     "service-worker.js": "/LittleLemon-Cafe/service-worker.js",
-    "static/css/main.ed7ac6bf.chunk.css.map": "/LittleLemon-Cafe/static/css/main.ed7ac6bf.chunk.css.map"
+    "static/css/main.2d656405.chunk.css.map": "/LittleLemon-Cafe/static/css/main.2d656405.chunk.css.map"
   }
 }
