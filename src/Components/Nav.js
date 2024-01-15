@@ -35,12 +35,12 @@ return (
         </nav>
         <div className="mobile-menu">
             <ul>
-                <li><Link to="/" className="nav-item">Home</Link></li>
-                <li><Link to="/about" className="nav-item">About</Link></li>
-                <li><Link to="/menu" className="nav-item">Menu</Link></li>
-                <li><Link to="/reservation" className="nav-item">Reservations</Link></li>
-                <li><Link to="/order-online" className="nav-item">Order Online</Link></li>
-                <li><Link to="/login" className="nav-item">Login</Link></li>
+                <li><Link to="/LittleLemon-Cafe/" className="nav-item">Home</Link></li>
+                <li><Link to="/LittleLemon-Cafe/about" className="nav-item">About</Link></li>
+                <li><Link to="/LittleLemon-Cafe/menu" className="nav-item">Menu</Link></li>
+                <li><Link to="/LittleLemon-Cafe/reservation" className="nav-item">Reservations</Link></li>
+                <li><Link to="/LittleLemon-Cafe/order-online" className="nav-item">Order Online</Link></li>
+                <li><Link to="/LittleLemon-Cafe/login" className="nav-item">Login</Link></li>
             </ul>
         </div>
     </div>

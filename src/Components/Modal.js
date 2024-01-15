@@ -12,7 +12,7 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
 
     const handleIncrement = () => {
     setQuantity(prevNumber => prevNumber + 1);
-   } 
+   }
 
     const handleDecrement = () => {
     setQuantity(prevNumber => (prevNumber > 0 ? prevNumber - 1 : 0));
@@ -42,7 +42,7 @@ const Modal = ({isOpen, setOpenModal, modalContent }) => {
                 <div className='modal'>
                     <div className='modal-header'>
                         <h3>Order Confirmation</h3>
-                        <span><button onClick={() => setOpenModal(!isOpen)}><img src="./Images/icons8-close-50.png" alt="icone"/></button></span>
+                        <span><button onClick={() => setOpenModal(!isOpen)}><img src="https://icons8.com/icon/88571/close" alt="icone"/></button></span>
                     </div>
                     <div className='modal-body'>
                         <div className='modal-image'>
