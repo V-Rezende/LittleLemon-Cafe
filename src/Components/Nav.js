@@ -18,7 +18,7 @@ function Nav () {
 return (
     <div>
         <nav className="nav-menu">
-            <Link to="/" className="nav-item"><img src="./images/asset9@4x.PNG" alt="Logo"/></Link>
+            <Link to="/LittleLemon-Cafe/" className="nav-item"><img src="./images/asset9@4x.PNG" alt="Logo"/></Link>
                 <div className="nav-list">
                     <ul>
                         <li><Link to="/LittleLemon-Cafe/" className="nav-item">Home</Link></li>
