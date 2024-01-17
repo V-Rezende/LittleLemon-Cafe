@@ -37,9 +37,9 @@
 }
 
 .modal-header button{
-    width: 25px;
+    width: 30px;
     background-color: transparent;
-    border: 0.2px solid green;
+    border: none;
     margin-right: 20px;
 }
 
