@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5b8346869f8ee2900c6a1368fac93ef",
+    "revision": "2ba6e5a24933391e86f7de228f1202b7",
     "url": "/LittleLemon-Cafe/index.html"
   },
   {
-    "revision": "ec838e9cec69447df84a",
-    "url": "/LittleLemon-Cafe/static/css/main.2d656405.chunk.css"
+    "revision": "8ac85a6ef1fd7cc1b765",
+    "url": "/LittleLemon-Cafe/static/css/main.d684b0f0.chunk.css"
   },
   {
     "revision": "7aeb991b93efd548ed5b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LittleLemon-Cafe/static/js/3.d5f86460.chunk.js"
   },
   {
-    "revision": "ec838e9cec69447df84a",
-    "url": "/LittleLemon-Cafe/static/js/main.47923887.chunk.js"
+    "revision": "8ac85a6ef1fd7cc1b765",
+    "url": "/LittleLemon-Cafe/static/js/main.22e15a7e.chunk.js"
   },
   {
     "revision": "c685653437973132dd16",
